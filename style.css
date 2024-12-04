@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Archivo:wght@500&family=Open+Sans:wght@400;600&family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu&display=swap');
+
+@media (max-width: 600px) {
+    .form {
+        margin: 10px;
+        padding: 10px;
+    }
+
+    .input {
+        font-size: 16px;
+    }
+}
+
+:root {
+    --primary-color: #0a9396;
+    --secondary-color: #94d2bd;
+    --background-color: #e9d8a6;
+    --text-color: #001219;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'Roboto',sans-serif;
+    background-color: rgb(17, 87, 87);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.title{
+    color: rgba(237, 239, 228, 0.833);
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    
+
+}
+
+button{
+    background-color: var(--primary-color);
+    color: white;
+    border: 1px bold black;
+    transition: transform 0.2s;
+
+button:hover {
+    transform: scale(1.1);
+}
+}
+.Full-form{
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+    width: 100%;
+    max-width: 500px;
+}
+
+.input{
+    width: 100%;
+    padding: 10px;
+    border:  1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:hover, textarea:hover, button:hover {
+    border-color: rgb(17, 233, 118);
+    transition: 0.3s ease-in-out;
+}
+
